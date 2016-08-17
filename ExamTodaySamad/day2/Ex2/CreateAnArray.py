@@ -24,8 +24,9 @@ not import it"""
 def calling_function():
     """ This function is calling thefunction from the previous
     module"""
-    calling = AppendTheString('I am going to',' Lahore.') 
-    print calling
+    calling = AppendTheString('We are',' going to ') 
+    append_further = AppendTheString( calling, 'London')
+    print append_further
 
 def main():
     """ this is main function which is calling calling_function"""
