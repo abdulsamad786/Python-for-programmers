@@ -1,0 +1,19 @@
+Note: Always make a new folder for each program.
+
+Ex1)
+Create a function named AppendTheString that takes in two strings as an argument and returns a new string that joins the two string passed in as an argument. Please print the returned string in main.
+
+Sample String Input 1: I am going to
+Sample String Input 2: Lahore
+
+Result: I am going to Lahore. 
+
+Ex2)
+Create a new directory name "Ex2" copy "Ex1" in this folder. Create a new python file named "CreateAnArray.py". Call the function named AppendTheString created in the previous exercise. Append two strings from the pervious Samples Strings.    
+
+Sample String Input 1: I am going to
+Sample String Input 2: Lahore
+
+Result: I am going to Lahore. 
+
+HINT: Import the Module from pervious Ex1.
