@@ -24,9 +24,15 @@ not import it"""
 def calling_function():
     """ This function is calling thefunction from the previous
     module"""
-    calling = AppendTheString('We are',' going to ') 
-    append_further = AppendTheString( calling, 'London')
-    print append_further
+    calling = AppendTheString('My',' name ') 
+    append_further = AppendTheString( calling, 'is')
+    append_further_1 = AppendTheString(  append_further, ' Samad. ')
+    #print append_further_1
+    calling_1 = AppendTheString('I ','am ') 
+    calling_2 = AppendTheString(calling_1,' from') 
+    calling_3 = AppendTheString(calling_2,' Lahore. ') 
+    calling_4 = AppendTheString(append_further_1, calling_3) 
+    print calling_4
 
 def main():
     """ this is main function which is calling calling_function"""
