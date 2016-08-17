@@ -32,11 +32,11 @@ def calling_function():
     calling_2 = AppendTheString(calling_1,' from') 
     calling_3 = AppendTheString(calling_2,' Lahore. ') 
     calling_4 = AppendTheString(append_further_1, calling_3) 
-    print calling_4
+    return calling_4
 
 def main():
     """ this is main function which is calling calling_function"""
-    calling_function()
+    print calling_function()
 
 if __name__ == '__main__':
     main()
