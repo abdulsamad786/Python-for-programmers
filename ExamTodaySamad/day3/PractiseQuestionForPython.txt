@@ -1,0 +1,3 @@
+Note: Always make a new folder for each program.
+
+Ex1) Create a new folder Exday3-1 in day3 folder. Copy the Content in day 1 Folder into the new folder created. Create a new function named "ArrayofStrings" in "day1/Ex1/string_addition.py" file that returns an array of strings passed to it as an argument. 
