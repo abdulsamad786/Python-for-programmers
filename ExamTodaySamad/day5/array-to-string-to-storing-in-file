@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+""" Create a program that contains two functions:
+ a) takes array as an argument then returns string 
+b) then from string to store in a file
+
+"""
+
+def arrayToString(s):
+    final_string_in_one = ""
+    for x in s:
+        final_string_in_one += x + " "   
+    print final_string_in_one
+
+def main():
+    arrayToString(["I", "am", "Abdul", "Samad"])
+
+if __name__ == "__main__":
+    main()
+
